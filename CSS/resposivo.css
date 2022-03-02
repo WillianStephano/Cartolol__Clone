@@ -1,69 +1,99 @@
 @media (max-width:425px) {
+   
+   .cabecalho .container{
+      flex-direction: column;
+      align-items: center;
+   }
 
+   .perfil{
+      padding: 0;
+      margin-bottom: 4%;
+   }
+
+   .menu_nav_cabecalho{
+      order: 3;
+   }
+
+   .lista_menu_nav{
+      flex-direction: column;
+      gap: 25px;
+      align-items: center;
+   }
+   
+
+
+
+   /* ####################################### */
    .intro .container{
       flex-direction: column;
    }
-
+   
    .conteudo_texto_intro{
       position: initial;
       width: 90%;
       text-align: center;
    }
-
+   
    .titulo_p_intro{
       margin: 10% 0;
       text-align: center;
    }
-
+   
    .texto_intro{
       width: 100%;
    }
-
+   
    .img_intro{
       margin: 10% auto 0;
       width: 100%;
    }
-
-/* ############################# */
-
-   .mid .container{
-      flex-direction: column;
-      row-gap: 20px;
-   }
-
-   .titulo_p_mid{
-      margin: 15% 0;
-   }
-
-   .card_mid{
-      width: 80%;
-      margin: 0% auto;
-   }
- 
    
 
 
 
+
+   /* ############################# */
+   .mid .container{
+      flex-direction: column;
+      row-gap: 20px;
+   }
+   
+   .titulo_p_mid{
+      margin: 15% 0;
+   }
+   
+   .card_mid{
+      width: 80%;
+      margin: 0% auto;
+   }
+   
+   
+   
+   
+   
    /* ############################# */
    .img_low, .low{
       width: 100%;
    }
-
+   
    .titulo_p_low{
       margin: 10% 0;
    }
-
-
-
+   
+   
+   
    /* #################### */
    .rodape .container{
       flex-direction: column;
    }
-
+   
    .lista_menu_rodape{
       flex-direction: column;
       align-items: center;
       row-gap: 15px;
    }
-
+   
+   .logo_rodape{
+      width: 100%;
+   }
 }
