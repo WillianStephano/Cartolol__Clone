@@ -1,17 +1,30 @@
 @media (max-width:425px) {
    
    .cabecalho .container{
-      flex-direction: column;
+      width: 90%;
       align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
    }
 
+   .logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+   }
+
+   .bt_toggle{
+      display: block;
+   }
+   
+
    .perfil{
-      padding: 0;
-      margin-bottom: 4%;
+     display: none;
    }
 
    .menu_nav_cabecalho{
-      order: 3;
+      display: none;
    }
 
    .lista_menu_nav{
